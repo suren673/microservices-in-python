@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: python-microservice
-        image: python-microservice:1.0
+        image: gcr.io/oct29gcpproject/python-microservice:v1.0
         ports:
         - containerPort: 5000
